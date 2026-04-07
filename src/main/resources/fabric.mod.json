@@ -14,12 +14,9 @@
   "icon": "assets/versionless/icon.png",
   "environment": "*",
   "entrypoints": {
-    "preLaunch": ["dev.pyrehaven.versionless.VersionlessPreLaunch"],
     "main": ["dev.pyrehaven.versionless.Versionless"]
   },
-  "mixins": [
-    "versionless.mixins.json"
-  ],
+  "mixins": ["versionless.mixins.json"],
   "depends": {
     "fabricloader": ">=0.16.0",
     "minecraft": "~26.1",
